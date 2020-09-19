@@ -212,7 +212,7 @@ func GatherAllTests() map[string]map[string]interface{} {
 
 	/*
 		testMap looks like:
-		onekeTestData["https://something.companycloud.com/en-US/account/login?loginType=company"]["testName"] = "stack=wmcglobal-uk id=standard metric=web_check testname=web_check~https://something.companycloud.com/en-US/account/login?loginType=company"
+		onekeTestData["https://something.companycloud.com/en-US/account/login?loginType=company"]["testName"] = "stack=something id=standard metric=web_check testname=web_check~https://something.companycloud.com/en-US/account/login?loginType=company"
 		onekeTestData["https://something.companycloud.com/en-US/account/login?loginType=company"]["testID"] = "123567"
 		onekeTestData["https://something.companycloud.com/en-US/account/login?loginType=company"]["testType"] = "http-server"
 	*/
